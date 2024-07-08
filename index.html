@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="AluraGeek Logo">
+    </header>
+    <main>
+        <section class="products">
+            <h1>Mis Productos</h1>
+            <div id="product-list" class="product-list">
+                <!-- Productos serán renderizados aquí -->
+            </div>
+        </section>
+        <section class="add-product">
+            <h1>Agregar Producto</h1>
+            <form id="product-form">
+                <input type="text" id="name" placeholder="Nombre..." required>
+                <input type="number" id="price" placeholder="Precio..." required>
+                <input type="text" id="image" placeholder="Imagen URL..." required>
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!--<img src="assets/logo.png" alt="AluraGeek Logo">-->
+        <p>Desarrollado por Guillermo Carreto Sanchez</p>
+        <p>Alura 2024</p>
+    </footer>
+    <script src="js/products.js" type="module" class="footer-logo"></script>
+</body>
+</html>
